@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Welcome to my (Thereses) page!"
 date:   2024-03-12 11:24:35 +0100
 categories: jekyll update
 ---
@@ -8,7 +8,7 @@ You’ll find this post in your `_posts` directory. Go ahead and edit it and re-
 
 Jekyll requires blog post files to be named according to the following format:
 
-`YEAR-MONTH-DAY-title.MARKUP`
+`2023-03-10-how-to-set-up-a-website.markdown`
 
 Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
