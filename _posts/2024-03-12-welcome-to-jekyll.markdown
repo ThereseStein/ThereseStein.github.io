@@ -16,7 +16,6 @@ Jekyll also offers powerful support for code snippets:
 
 
 <a href="/map.html">Click me for map</a>
-<button href="/map.html"> Click here to go to my map </button>
 
 
  ![My stacked barplot](/images/stackedBarplot.png)
