@@ -4,7 +4,4 @@
 
 layout: home
 
-
-<button href="./map"> Click here to go to my map </button>
-
 ---

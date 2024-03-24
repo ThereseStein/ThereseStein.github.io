@@ -15,6 +15,10 @@ Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit number
 Jekyll also offers powerful support for code snippets:
 
 
+<a href="map">Click me for map</a>
+<button href="map"> Click here to go to my map </button>
+
+
  ![My stacked barplot](/images/stackedBarplot.png)
  
 
