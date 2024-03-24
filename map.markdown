@@ -1,3 +1,8 @@
+---
+layout: page
+title: Map
+permalink: /map/
+---
 <html>
 <head><meta charset="utf-8" /></head>
 <body>
