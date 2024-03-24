@@ -16,6 +16,9 @@ Jekyll also offers powerful support for code snippets:
 
  ![My stacked barplot](../stacked_barplot.png)
 
+
+ <img src="../stacked_barplot.png" alt="My stacked barplot"> 
+
 {% highlight ruby %}
 def print_hi(name)
   puts "Hi, #{name}"
