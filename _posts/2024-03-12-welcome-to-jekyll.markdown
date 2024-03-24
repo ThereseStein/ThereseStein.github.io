@@ -15,12 +15,10 @@ Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit number
 Jekyll also offers powerful support for code snippets:
 
 
-v4
-
- ![My stacked barplot](/stackedBarplot.png)
+ ![My stacked barplot](/images/stackedBarplot.png)
  
 
- <img src="/stackedBarplot.png" alt="My stacked barplot"> 
+ <img src="/images/stackedBarplot.png" alt="My stacked barplot"> 
 
 {% highlight ruby %}
 def print_hi(name)
