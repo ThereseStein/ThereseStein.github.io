@@ -1,7 +1,7 @@
 ---
 layout: default #layout: home
 ---
-Hi
+
 <h1>Some text a title worthy</h1>
 
 <ul>
