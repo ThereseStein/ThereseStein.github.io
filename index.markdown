@@ -1,5 +1,5 @@
 ---
-layout: default #layout: home
+layout: default
 ---
 
 <h1>Some text a title worthy</h1>
