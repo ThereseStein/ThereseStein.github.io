@@ -2,7 +2,7 @@
 layout: default #layout: home
 ---
 Hi
-<h1>Recent Posts</h1>
+<h1></h1>
 
 <ul>
   {% for post in site.posts %}
