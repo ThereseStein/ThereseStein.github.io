@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Example content
-truncated_preview: true
+truncated_preview: false
 excerpt_separator: <!--more-->
 ---
 
