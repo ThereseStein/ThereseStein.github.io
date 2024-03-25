@@ -9,5 +9,13 @@ layout: home
 ---
 
 This descriptive text in the `index.md` file.
+v1
+
+ ![My stacked barplot](/images/stackedBarplot.png)
+ 
 
  <img src="/images/stackedBarplot.png" alt="My stacked barplot"> 
+
+
+Also:
+
