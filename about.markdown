@@ -18,3 +18,14 @@ But beyond the numbers lies the heart of our project – the stories. Each data 
 So, we invite you to explore our website and immerse yourself in the narratives waiting to be uncovered. Click through, dive deep, and discover the stories that shape our understanding of society. And as you navigate through the data, remember the invaluable support and guidance provided by our course. Visit [ Social data analysis and visualization (02806)' website](https://github.com/suneman/socialdata2024/wiki) to learn more about the tools and techniques that empower our exploration of social data.
 
 <i> And yes..  this text was created in collaboration with ChatGPT.</i>
+
+DELETE THE TEXT BELOW::::::
+
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
