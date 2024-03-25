@@ -1,8 +1,7 @@
 ---
 layout: page
 title: About
----
-
+---S
 
 <div class="text-justify">
     <p> 
