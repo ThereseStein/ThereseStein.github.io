@@ -2,7 +2,7 @@
 layout: default #layout: home
 ---
 Hi
-<h1></h1>
+<h1>Some text a title worthy</h1>
 
 <ul>
   {% for post in site.posts %}
