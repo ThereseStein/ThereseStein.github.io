@@ -3,10 +3,12 @@ layout: page
 title: About
 ---
 <div class="text-justify">
-    Welcome to the most mindfucking Social Data Analysis and Visualization Project 
-    E-V-E-R.
+    <p>Welcome to the most mindfucking Social Data Analysis and Visualization Project 
+    E-V-E-R.</p>
 
+    <p>
     Step into a world where data speaks volumes and stories unfold with every click. This platform is more than just a website; it's a culmination of exploration, discovery, and storytelling through the lens of social data.
+    </p>
 
     This website invite you to embark on a journey of understanding and insight. 
 
