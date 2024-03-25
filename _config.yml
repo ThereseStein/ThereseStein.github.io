@@ -14,5 +14,8 @@ author:
 gems:
   - jekyll-paginate
 
+plugins:
+  - jekyll-feed
+
 #Others
 markdown: kramdown
