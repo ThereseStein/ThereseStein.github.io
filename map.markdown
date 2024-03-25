@@ -1,8 +1,12 @@
 ---
 layout: page
 title: Map
-permalink: /map/
+tagline: Look at my map!
+permalink: /map.html
+ref: map
+order: 2
 ---
+
 <html>
 <head><meta charset="utf-8" /></head>
 <body>

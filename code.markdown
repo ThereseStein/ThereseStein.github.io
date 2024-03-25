@@ -1,10 +1,13 @@
 ---
 layout: page
 title: Code
-permalink: /code/
+tagline: This page will show the code used.
+permalink: /code.html
+ref: code
+order: 1
 ---
 
-This page will show the code used.
+
 
 {% highlight ruby %}
 import pandas as pd
