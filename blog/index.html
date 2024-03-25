@@ -24,30 +24,4 @@ title: Blog
   {% endfor %}
 </div>
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item" href="{{ paginator.next_page_path | prepend: site.baseurl }}">
-      <i class="fa fa-arrow-circle-o-left"></i> 
-      <span class="pagination-text">older posts</span>
-    </a>
-  {% else %}
-    <span class="pagination-item">
-      <i class="fa fa-arrow-circle-o-left"></i> 
-      <span class="pagination-text">older posts</span>
-    </span>
-  {% endif %}
 
-  <!-- <a class="pagination-item" href="#">archive</a> -->
-
-  {% if paginator.previous_page %}
-    <a class="pagination-item" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">
-      <span class="pagination-text">newer posts</span> 
-      <i class="fa fa-arrow-circle-o-right"></i>
-    </a>
-  {% else %}
-    <span class="pagination-item">
-      <span class="pagination-text">newer posts</span> 
-      <i class="fa fa-arrow-circle-o-right"></i>
-    </span>
-  {% endif %}
-</div>
