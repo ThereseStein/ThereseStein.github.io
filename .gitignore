@@ -1,19 +1,8 @@
-# sublime text
-*.tmlanguage.cache
-*.tmPreferences.cache
-*.stTheme.cache
-*.sublime-workspace
-sftp-config.json
+.DS_Store
 
-# jekyll
-_drafts/
-_site/
-.sass-cache/
+_site
+.sass-cache
+.jekyll-cache
 .jekyll-metadata
 
-# rubygems
-.bundle/
-vendor/
-
-# custom
-*.bat
+Gemfile.lock
