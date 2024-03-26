@@ -14,6 +14,19 @@
         source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy
         customization.
       </p>
+
+      <iframe id="bokehPlot" src="plots/map.html" width="600"></iframe>
+
+      <script>
+          window.onload = function() {
+              var iframe = document.getElementById('bokehPlot');
+              iframe.onload = function() {
+                  var iframeDocument = iframe.contentDocument || iframe.contentWindow.document;
+                  iframe.style.height = iframeDocument.body.scrollHeight + 'px';
+              };
+          };
+      </script>
+
       </div>
     </div>
   </div>
