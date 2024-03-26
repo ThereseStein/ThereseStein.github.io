@@ -15,17 +15,7 @@
         customization.
       </p>
 
-      <iframe id="bokehPlot" src="plots/map.html" width="600"></iframe>
-
-      <script>
-          window.onload = function() {
-              var iframe = document.getElementById('bokehPlot');
-              iframe.onload = function() {
-                  var iframeDocument = iframe.contentDocument || iframe.contentWindow.document;
-                  iframe.style.height = iframeDocument.body.scrollHeight + 'px';
-              };
-          };
-      </script>
+      <iframe src="path/to/your/bokeh_plot.html" width="600" height="400"></iframe>
 
       </div>
     </div>
