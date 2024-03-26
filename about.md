@@ -31,7 +31,7 @@ title: About
     </p>
 
     <p> 
-    So, we invite you to explore our website and immerse yourself in the narratives waiting to be uncovered. Click through, dive deep, and discover the stories that shape our understanding of society. And as you navigate through the data, remember the invaluable support and guidance provided by our course. Visit [ Social data analysis and visualization (02806)'s website](https://github.com/suneman/socialdata2024/wiki) to learn more about the tools and techniques that empower our exploration of social data.
+    So, we invite you to explore our website and immerse yourself in the narratives waiting to be uncovered. Click through, dive deep, and discover the stories that shape our understanding of society. And as you navigate through the data, remember the invaluable support and guidance provided by our course. Visit <a href="https://github.com/suneman/socialdata2024/wiki">Social data analysis and visualization (02806)'s website</a> to learn more about the tools and techniques that empower our exploration of social data.
     </p>
 
     <p> 
