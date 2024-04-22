@@ -1,25 +1,61 @@
-<header id="header">
-	<div id = site_title>
-		<a href="{{ "/" | absolute_url }}">
-			<h1>{{site.title}}</h1>
-		</a>
-		{% if site.data.settings.subtitle.active %}
-		<h2>
-			{{ site.data.settings.subtitle.text }}
-		</h2>
-		{% endif %}
-	</div>
+<!-- Header -->
+<header>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <img class="img-responsive" src="img/profile_theft.png" alt="theft-pic" />
+        <div class="intro-text">
+          <span class="name">{{ site.title }}</span>
+          <hr class="star-light" />
+          <span class="skills">{{ site.skills }}</span>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2>Intro</h2>
+      </div>
+    </div>
 
-	<div id="subheader">
-		{% if site.data.settings.nav.pages.active %}
-		<nav class="pages">
-			{%- include pages.html -%}
-		</nav>
-		{% endif %}
-		{% if site.data.settings.nav.social.active %}
-		<nav class="social">
-			{% include social.html %}
-		</nav>
-		{% endif %}
-	</div>
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2">
+        <p class="text-justify"> <!-- Add class "text-justify" here -->
+          We are about to dive into a <a href="https://data.sfgov.org/Public-Safety/Police-Department-Incident-Reports-Historical-2003/tmnf-yvry/about_data" style="color: #b3f7a0">dataset</a> of criminal activity in San Francisco, published by the San Francisco Police Department (SFPD). The dataset is limited to activities between 2003 and the first part of 2018. The activities are still being recorded, but the datasets from 2018 and onward are of a different format, hence we stick to the “older” data on purpose.
+        </p>
+        <p class="text-justify">
+          To avoid any confusions, we omit data from 2018, as data collection of this year is not complete.
+        </p>
+        <p class="text-justify"> 
+          Each entry of the dataset is a “criminal activity”, which is defined by an arrest. The dataset includes attributes like crime-type, date, time-of-date, location, and more. 
+        </p>
+      </div>
+    </div>
+    
+
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h3>Problem</h3>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2">
+        <p class="text-justify">
+          We would like to investigate the issue of stealing in San Francisco. Therefore, the following specific types of stealing will be the focus of the analysis.
+        </p>
+        <ul class="text-left">
+          <li>Stolen Property: Taking someone else's belongings without permission with the intent to keep them.</li>
+          <li>Robbery: Stealing from someone using force or threat of force.</li>
+          <li>Burglary: Illegally entering a building to commit a crime, often theft.</li>
+          <li>Vehicle Theft: Taking someone else's vehicle without permission.</li>
+          <li>Larceny/Theft: Illegally taking someone else's property with no confrontation involved.</li>
+        </ul>
+        <p class="text-justify">
+          These crimes are likely correlated, and the aim is to determine existing trends. 
+        </p>
+      </div>
+    </div>
+
+  </div>
 </header>
